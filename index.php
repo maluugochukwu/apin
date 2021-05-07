@@ -320,7 +320,7 @@
     <section class="about-layout2 pb-0">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-7 offset-lg-1">
+          <div class="col-sm-12 col-md-12 col-lg-7 ">
             <div class="heading-layout2">
               <h3 class="heading__title mb-60">Improving The Quality Of Your <br> Life Through Better Health.</h3>
             </div><!-- /heading -->
@@ -329,18 +329,15 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-5">
             <div class="text-with-icon">
-              <div class="text__icon">
+              <!-- <div class="text__icon">
                 <i class="icon-doctor"></i>
-              </div>
+              </div> -->
               <div class="text__content">
-                <p class="heading__desc font-weight-bold color-secondary mb-30">Our goal is to deliver quality of care
-                  in a courteous, respectful, and
-                  compassionate manner. We hope you will allow us to care for you and strive to be the first and best
-                  choice for healthcare.
+                <!-- <p class="heading__desc font-weight-bold color-secondary mb-30">Our mission is to provide cutting-edge, innovative & sustainable approaches to address the disease of public health importance through effective program management, service delivery, capacity building, research, strategic information & advocacy in partnership with other stakeholders. -->
                 </p>
-                <a href="doctors-timetable.html" class="btn btn__secondary btn__rounded mb-70">
+                <!-- <a href="doctors-timetable.html" class="btn btn__secondary btn__rounded mb-70">
                   <span>Find A Doctor</span> <i class="icon-arrow-right"></i>
-                </a>
+                </a> -->
               </div>
             </div>
             <div class="video-banner-layout2 bg-overlay">
@@ -355,9 +352,7 @@
           </div><!-- /.col-lg-6 -->
           <div class="col-sm-12 col-md-12 col-lg-7">
             <div class="about__text bg-white">
-              <p class="heading__desc mb-30">Our goal is to deliver quality of care in a courteous, respectful, and
-                compassionate
-                manner. We hope you will allow us to care for you and to be the first and best choice for healthcare.
+              <p class="heading__desc mb-30">Our mission is to provide cutting-edge, innovative & sustainable approaches to address the disease of public health importance through effective program management, service delivery, capacity building, research, strategic information & advocacy in partnership with other stakeholders.
               </p>
               <p class="heading__desc mb-30">We will work with you to develop individualised care plans, including
                 management of
