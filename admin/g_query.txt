@@ -1,0 +1,1 @@
+SELECT transaction_id,transaction_id,transaction_amount,source_acct,dress_id,dress_amount,caution_fee,is_returned,branch_id,pickup_date,return_date,additional_request,posted_by,payment_mode,created,transaction_id,is_discounted,discount_price,is_collected FROM transaction_table WHERE  1 = 1  AND payment_mode = 'TRANSFER' order by transaction_id asc  LIMIT 0, 10

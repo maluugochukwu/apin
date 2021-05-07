@@ -1,0 +1,1 @@
+insert into customers (email,phone,first_name,last_name,address,bank_name,account_name,account_no,created,phone_2) VALUES ('esther@gmail.com','08073624675','Esther','Okonkwo','Lagos Island, Lagos Island\r\nLagos Island','044','MALU JOSEPH UGO','0045512298','2021-04-14 05:24:45','07060760805')

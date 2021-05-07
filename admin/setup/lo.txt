@@ -1,0 +1,1 @@
+SELECT * FROM banks WHERE bank_type='commercial' order by bank_name asc

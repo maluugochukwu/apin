@@ -1,0 +1,1 @@
+SELECT COUNT(transaction_id) AS counter FROM transaction_table WHERE  1 = 1  AND payment_mode = 'TRANSFER' order by transaction_id asc
