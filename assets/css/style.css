@@ -1480,25 +1480,25 @@ h6 {
 
 .btn__primary {
   color: #ffffff;
-  background-color: #21cdc0;
+  background-color: #b3d55e;
 }
 
 .btn__primary .icon-outlined {
   color: #213360;
-  border: 1px solid #21cdc0;
+  border: 1px solid #b3d55e;
   color: #21cdc0;
   background-color: #ffffff;
 }
 
 .btn__primary .icon-filled {
   color: #ffffff;
-  background-color: #21cdc0;
+  background-color: #b3d55e;
 }
 
 .btn__primary:active, .btn__primary:focus {
   color: #ffffff;
-  border-color: #21cdc0;
-  background-color: #21cdc0;
+  border-color: #b3d55e;
+  background-color: #b3d55e;
 }
 
 .btn__primary:hover {
