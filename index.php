@@ -1,3 +1,6 @@
+<?php
+// ini_set('warning',0);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,6 +28,21 @@
       width:370px;
       height: 380px;
       border:1px solid #ccc;
+    }
+    .slide__content{
+      background: rgba(0, 0, 0, 0.7);
+      padding: 10px
+    }
+    .slide__title{
+      color: #b3d55e;
+    }
+    .slide__desc{
+      color: #ffffff !important;
+    }
+    .slider .slide__title {
+        font-size: 47px;
+        line-height: 1.0;
+        margin-bottom: 25px;
     }
   </style>
 </head>
@@ -180,7 +198,7 @@
       <div class="slick-carousel m-slides-0"
         data-slick='{"slidesToShow": 1, "arrows": true, "dots": false, "speed": 700,"fade": true,"cssEase": "linear"}'>
         <div class="slide-item align-v-h">
-          <div class="bg-img"><img src="assets/images/sliders/hepatitis-dark.png" alt="slide img"></div>
+          <div class="bg-img"><img src="assets/images/sliders/hepatitis_high_res.jpg" alt="slide img"></div>
           <div class="container">
             <div class="row align-items-center">
               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
@@ -195,7 +213,7 @@
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
         <div class="slide-item align-v-h">
-          <div class="bg-img"><img src="assets/images/sliders/2.jpg" alt="slide img"></div>
+          <div class="bg-img"><img src="assets/images/sliders/benue_gov.jpg" alt="slide img"></div>
           <div class="container">
             <div class="row align-items-center">
               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
@@ -203,36 +221,7 @@
                   <h2 class="slide__title">All Aspects Of Medical Practice</h2>
                   <p class="slide__desc">The health and well-being of our patients and their health care team will
                     always be our priority, so we follow the best practices for cleanliness.</p>
-                  <ul class="features-list list-unstyled mb-0 d-flex flex-wrap">
-                    <!-- feature item #1 -->
-                    <li class="feature-item">
-                      <div class="feature__icon">
-                        <i class="icon-heart"></i>
-                      </div>
-                      <h2 class="feature__title" style="color:#fff">Examination</h2>
-                    </li><!-- /.feature-item-->
-                    <!-- feature item #2 -->
-                    <li class="feature-item">
-                      <div class="feature__icon">
-                        <i class="icon-medicine"></i>
-                      </div>
-                      <h2 class="feature__title">Prescription </h2>
-                    </li><!-- /.feature-item-->
-                    <!-- feature item #3 -->
-                    <li class="feature-item">
-                      <div class="feature__icon">
-                        <i class="icon-heart2"></i>
-                      </div>
-                      <h2 class="feature__title">Cardiogram</h2>
-                    </li><!-- /.feature-item-->
-                    <!-- feature item #4 -->
-                    <li class="feature-item">
-                      <div class="feature__icon">
-                        <i class="icon-blood-test"></i>
-                      </div>
-                      <h2 class="feature__title">Blood Pressure</h2>
-                    </li><!-- /.feature-item-->
-                  </ul><!-- /.features-list -->
+                  
                 </div><!-- /.slide-content -->
               </div><!-- /.col-xl-7 -->
             </div><!-- /.row -->
@@ -475,47 +464,7 @@
     <!-- ======================
     Features Layout 2
     ========================= -->
-    <section class="features-layout2 pt-130 bg-overlay bg-overlay-primary">
-      <div class="bg-img"><img src="assets/images/backgrounds/2.jpg" alt="background"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-1">
-            <div class="heading__layout2 mb-50">
-              <h3 class="heading__title color-white">Medcity Has Touched The Lives Of Patients & Providing Care for The
-                Sickest In Our Community.</h3>
-            </div>
-          </div><!-- /col-lg-5 -->
-        </div><!-- /.row -->
-        <div class="row mb-100">
-          <div class="">
-          <div class="slick-carousel"
-              data-slick='{"slidesToShow": 2, "slidesToScroll": 2, "autoplay": true, "arrows": false, "dots": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 1}}, {"breakpoint": 767, "settings": {"slidesToShow": 1}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
-              <div class="bg-white p-1">
-                <img src="assets/images/team/1.jpg" alt="member img">
-                <h3>Facebook</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut odit aliquam vitae, incidunt aperiam soluta eveniet debitis cupiditate laborum autem voluptate odio reprehenderit dolorum accusamus quas vero asperiores rerum dignissimos!</p>
-              </div>
-              <div class="bg-white p-1">
-              <img src="assets/images/team/1.jpg" alt="member img">
-                <h3>Twitter</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eos similique nulla cum ad, voluptates laborum debitis temporibus, ut ea ipsum culpa exercitationem officiis itaque porro. Unde qui officiis maiores.</p>
-              </div>
-            </div>
-          </div>
-        </div><!-- /.row -->
-        
-        <div class="row">
-          <div class="col-md-12 col-lg-6 offset-lg-3 text-center">
-            <!-- <p class="font-weight-bold color-gray mb-0">We hope you will allow us to care for you and strive to be the
-              first and best choice for healthcare.
-              <a href="#" class="color-secondary">
-                <span>Contact Us For More Information</span> <i class="icon-arrow-right"></i>
-              </a>
-            </p> -->
-          </div><!-- /.col-lg-6 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.Features Layout 2 -->
+    
 
     <!-- ======================
       Team
@@ -821,61 +770,7 @@
             </div>
           </div><!-- /.col-lg-7 -->
           <div class="col-sm-12 col-md-12 col-lg-5">
-            <div class="heading heading-light mb-30">
-              <h3 class="heading__title mb-30">Helping Patients From Around the Globe!!</h3>
-              <p class="heading__desc">Our staff strives to make each interaction with patients clear, concise, and
-                inviting. Support the important work of Medicsh Hospital by making a much-needed donation today.
-              </p>
-            </div>
-            <div class="d-flex align-items-center">
-              <a href="contact-us.html" class="btn btn__white btn__rounded mr-30">
-                <i class="fas fa-heart"></i> <span>Make A Gift</span>
-              </a>
-              <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
-                <div class="video__player">
-                  <i class="fa fa-play"></i>
-                </div>
-                <span class="video__btn-title color-white">Play Video</span>
-              </a>
-            </div>
-            <div class="text__block">
-              <p class="text__block-desc color-white font-weight-bold">We provide a comprehensive range of plans for
-                families and individuals at every stage of life, with annual limits ranging from £1.5m to unlimited.</p>
-              <div class="sinature color-white">
-                <span class="font-weight-bold">Martin Qube</span><span>, Medcity Manager</span>
-              </div>
-            </div><!-- /.text__block -->
-            <div class="slick-carousel clients-light mt-20"
-              data-slick='{"slidesToShow": 3, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 3}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
-              <div class="client">
-                <img src="assets/images/clients/1.png" alt="client">
-                <img src="assets/images/clients/1.png" alt="client">
-              </div><!-- /.client -->
-              <div class="client">
-                <img src="assets/images/clients/2.png" alt="client">
-                <img src="assets/images/clients/2.png" alt="client">
-              </div><!-- /.client -->
-              <div class="client">
-                <img src="assets/images/clients/3.png" alt="client">
-                <img src="assets/images/clients/3.png" alt="client">
-              </div><!-- /.client -->
-              <div class="client">
-                <img src="assets/images/clients/4.png" alt="client">
-                <img src="assets/images/clients/4.png" alt="client">
-              </div><!-- /.client -->
-              <div class="client">
-                <img src="assets/images/clients/5.png" alt="client">
-                <img src="assets/images/clients/5.png" alt="client">
-              </div><!-- /.client -->
-              <div class="client">
-                <img src="assets/images/clients/6.png" alt="client">
-                <img src="assets/images/clients/6.png" alt="client">
-              </div><!-- /.client -->
-              <div class="client">
-                <img src="assets/images/clients/7.png" alt="client">
-                <img src="assets/images/clients/7.png" alt="client">
-              </div><!-- /.client -->
-            </div><!-- /.carousel -->
+           
           </div><!-- /.col-lg-5 -->
         </div><!-- /.row -->
       </div><!-- /.container -->
@@ -927,7 +822,7 @@
             <div class="post-item">
               <div class="post__img">
                 <a href="blog-single-post.html">
-                  <img src="assets/images/blog/grid/2.jpg" alt="post image" loading="lazy">
+                  <img src="assets/images/news-placeholder.jpg" alt="post image" loading="lazy">
                 </a>
               </div><!-- /.post__img -->
               <div class="post__body">
@@ -954,7 +849,7 @@
             <div class="post-item">
               <div class="post__img">
                 <a href="blog-single-post.html">
-                  <img src="assets/images/blog/grid/3.jpg" alt="post image" loading="lazy">
+                  <img src="assets/images/news-placeholder.jpg" alt="post image" loading="lazy">
                 </a>
               </div><!-- /.post__img -->
               <div class="post__body">
@@ -988,34 +883,18 @@
       <div class="footer-primary">
         <div class="container">
           <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-3">
+            <div class="col-sm-12 col-md-12 col-lg-4">
               <div class="footer-widget-about">
-                <img src="assets/images/logo/logo.png" alt="logo" class="mb-30">
-                <p class="color-gray">Our goal is to deliver quality of care in a courteous, respectful, and
-                  compassionate manner. We hope you will allow us to care for you and strive to be the first and best
-                  choice for your family healthcare.
+                <img src="assets/images/logo/apin_footer.png" alt="logo" class="mb-30">
+                <p class="color-gray">To provide cutting-edge, innovative & sustainable approaches to address the disease of public health importance through effective program management, service delivery, capacity building, research, strategic information & advocacy in partnership with other stakeholders.
                 </p>
-                <a href="appointment.html" class="btn btn__primary btn__primary-style2 btn__link">
+                <!-- <a href="appointment.html" class="btn btn__primary btn__primary-style2 btn__link">
                   <span>Make Appointment</span> <i class="icon-arrow-right"></i>
-                </a>
+                </a> -->
               </div><!-- /.footer-widget__content -->
             </div><!-- /.col-xl-2 -->
-            <div class="col-sm-6 col-md-6 col-lg-2 offset-lg-1">
-              <div class="footer-widget-nav">
-                <h6 class="footer-widget__title">Departments</h6>
-                <nav>
-                  <ul class="list-unstyled">
-                    <li><a href="#">Neurology Clinic</a></li>
-                    <li><a href="#">Cardiology Clinic</a></li>
-                    <li><a href="#">Pathology Clinic</a></li>
-                    <li><a href="#">Laboratory Analysis</a></li>
-                    <li><a href="#">Pediatric Clinic</a></li>
-                    <li><a href="#">Cardiac Clinic</a></li>
-                  </ul>
-                </nav>
-              </div><!-- /.footer-widget__content -->
-            </div><!-- /.col-lg-2 -->
-            <div class="col-sm-6 col-md-6 col-lg-2">
+            
+            <div class="col-sm-12 col-md-12 col-lg-2  offset-lg-2">
               <div class="footer-widget-nav">
                 <h6 class="footer-widget__title">Links</h6>
                 <nav>
@@ -1060,8 +939,8 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-sm-12 col-md-6 col-lg-6">
-              <span class="fz-14">&copy; 2020 DataSoft, All Rights Reserved. With Love by</span>
-              <a class="fz-14 color-primary" href="http://themeforest.net/user/7oroof">7oroof.com</a>
+              <span class="fz-14">&copy; <?php echo @date('Y'); ?> Sparkle, All Rights Reserved. With Love by</span>
+              <a class="fz-14 color-primary" href="#">sparkle.com.ng</a>
             </div><!-- /.col-lg-6 -->
             <div class="col-sm-12 col-md-6 col-lg-6">
               <nav>
