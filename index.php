@@ -48,6 +48,7 @@
 </head>
 
 <body>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="M3cuVpPz"></script>
   <div class="wrapper">
     <div class="preloader">
       <div class="loading"><span></span><span></span><span></span><span></span></div>
@@ -204,8 +205,7 @@
               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
                 <div class="slide__content">
                   <h2 class="slide__title" style="color:#b3d55e">APIN IS IN THE NEWS</h2>
-                  <p class="slide__desc" style="color:#ffffff">The health and well-being of our patients and their health care team will
-                    always be our priority, so we follow the best practices for cleanliness.</p>
+                  <p class="slide__desc" style="color:#ffffff">Deaths From Hepatitis Increasing, Get Tested, Oyo Tells Nigerians.</p>
                   
                 </div><!-- /.slide-content -->
               </div><!-- /.col-xl-7 -->
@@ -883,54 +883,29 @@
       <div class="footer-primary">
         <div class="container">
           <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="col-sm-12 col-md-12 col-lg-3">
               <div class="footer-widget-about">
                 <img src="assets/images/logo/apin_footer.png" alt="logo" class="mb-30">
-                <p class="color-gray">To provide cutting-edge, innovative & sustainable approaches to address the disease of public health importance through effective program management, service delivery, capacity building, research, strategic information & advocacy in partnership with other stakeholders.
+                <p class="color-gray"><b>ABUJA (CORPORATE HEADQUARTERS)</b>
+                  Plot 1551, APO Resettlement, Zone E, APO FCT, Abuja.
                 </p>
                 <!-- <a href="appointment.html" class="btn btn__primary btn__primary-style2 btn__link">
                   <span>Make Appointment</span> <i class="icon-arrow-right"></i>
                 </a> -->
               </div><!-- /.footer-widget__content -->
             </div><!-- /.col-xl-2 -->
-            
-            <div class="col-sm-12 col-md-12 col-lg-2  offset-lg-2">
-              <div class="footer-widget-nav">
-                <h6 class="footer-widget__title">Links</h6>
-                <nav>
-                  <ul class="list-unstyled">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Our CLinic</a></li>
-                    <li><a href="#">Our Doctors</a></li>
-                    <li><a href="#">News & Media</a></li>
-                    <li><a href="#">Appointments</a></li>
-                  </ul>
-                </nav>
-              </div><!-- /.footer-widget__content -->
+            <div class="col-lg-3">
+              <div style="height:300px; overflow:scroll">
+                <a class="twitter-timeline" href="https://twitter.com/BarackObama?ref_src=twsrc%5Etfw">Tweets by BarackObama</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-3">
+            <div class="fb-page" data-href="https://www.facebook.com/barackobama/" data-tabs="timeline" data-width="" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/barackobama/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/barackobama/">Barack Obama</a></blockquote></div>
             </div><!-- /.col-lg-2 -->
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="footer-widget-contact">
-                <h6 class="footer-widget__title color-heading">Quick Contacts</h6>
-                <ul class="contact-list list-unstyled">
-                  <li>If you have any questions or need help, feel free to contact with our team.</li>
-                  <li>
-                    <a href="tel:01061245741" class="phone__number">
-                      <i class="icon-phone"></i> <span>01061245741</span>
-                    </a>
-                  </li>
-                  <li class="color-body">2307 Beverley Rd Brooklyn, New York 11226 United States.</li>
-                </ul>
-                <div class="d-flex align-items-center">
-                  <a href="contact-us.html" class="btn btn__primary btn__link mr-30">
-                    <i class="icon-arrow-right"></i> <span>Get Directions</span>
-                  </a>
-                  <ul class="social-icons list-unstyled mb-0">
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                  </ul><!-- /.social-icons -->
-                </div>
-              </div><!-- /.footer-widget__content -->
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div style="height:300px; overflow:scroll">
+                <a class="twitter-timeline" href="https://twitter.com/BarackObama?ref_src=twsrc%5Etfw">Tweets by BarackObama</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div>
             </div><!-- /.col-lg-2 -->
           </div><!-- /.row -->
         </div><!-- /.container -->
